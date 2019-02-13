@@ -26,7 +26,7 @@ function checkBox() {
   var pickedColor = this.style.background;
   if (pickedColor == correctColor) {
       this.style.background = "white";
-      document.getElementById("result").innerHTML = "WIN";
+      document.getElementById("result").innerHTML = "Result = WIN";
       for (var i = 0; i < 6; i++) {
         document.getElementsByClassName('square')[i].style.background = correctColor;
       }
