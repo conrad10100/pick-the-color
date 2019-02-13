@@ -19,7 +19,7 @@ function createSquare() {
     document.getElementsByClassName("square")[i].observe("click",checkBox);
   }
   correctColor = colors[randomColor];
-  document.getElementById("p1").innerHTML = correctColor;
+  document.getElementById("name").innerHTML = correctColor;
 
 }
 function checkBox() {
