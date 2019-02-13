@@ -13,15 +13,20 @@ body {
 	height: 150px;
 }
 
-#p1{
+#name{
 	color: white;
 	text-align: center;
 }
-
+#bottomBar{
+	background-color: white;
+}
 #resetButton{
 border: none;
-background: grey;
-color: white;
+background: white;
+color: blue;
+}
+#resetButton:hover{
+	background-color: red;
 }
 
 .square {
