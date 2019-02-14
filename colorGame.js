@@ -7,7 +7,6 @@ window.onload = function(){
 
 function createSquare() {
   randomColor= Math.floor(Math.random()*6);//will create random numbers between [0-5]
-
   for (var i = 0; i < 6; i++) {
 
     red= Math.floor(Math.random()*255);//will create random numbers between [0-255]
@@ -38,4 +37,5 @@ function checkBox() {
 
 function reset() {
   createSquare()
+  document.getElementById("result").innerHTML = "";
 }
